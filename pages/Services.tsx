@@ -7,12 +7,11 @@ const Services: React.FC = () => {
   return (
     <div className="pt-24 pb-20 bg-brand-charcoal min-h-screen animate-fade-in">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold font-heading text-white mb-6">Our Services</h1>
-          <p className="text-lg text-brand-silver">
-            We offer a comprehensive range of mobile detailing services tailored to your vehicle's needs. From basic maintenance washes to paint correction and ceramic coatings.
-          </p>
-        </div>
+        <SectionHeader 
+          title="Our Services" 
+          subtitle="We offer a comprehensive range of mobile detailing services tailored to your vehicle's needs. From basic maintenance washes to paint correction and ceramic coatings."
+          center
+        />
 
         <div className="space-y-12">
           {SERVICES.map((service, index) => (

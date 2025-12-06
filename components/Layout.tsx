@@ -201,7 +201,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
         </div>
         <div className="container mx-auto px-4 pt-8 border-t border-gray-600 text-center text-brand-silver text-sm">
-          <p>&copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved. | A Diamon</p>
+          <p>&copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved. | A Diamond Dev Website</p>
         </div>
       </footer>
 

@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
   }, []);
 
   return (
-    <div className="pt-24 pb-20 bg-brand-charcoal min-h-screen animate-fade-in">
+    <div className="pt-14 pb-20 bg-brand-charcoal min-h-screen animate-fade-in">
       <div className="container mx-auto px-4">
         <SectionHeader 
           title="Book Your Detail" 

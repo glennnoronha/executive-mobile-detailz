@@ -6,7 +6,7 @@ export const BUSINESS_INFO = {
   phone: "(806) 729-8145",
   email: "mikesdetail11@gmail.com",
   location: "Amarillo, Texas",
-  hours: "Mon–Fri: 7:00 AM – 6:00 PM • Sat 7:00 AM – 5:00 PM • Sun 8:00 AM – 12:00 PM",
+  hours: "Weekdays 7–6 • Sat 7–5 • Sun 8–12",
   tagline: "Experience the Executive Standard of Automotive Care"
 };
 

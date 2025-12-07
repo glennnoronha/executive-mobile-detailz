@@ -9,7 +9,7 @@ import { SectionHeader } from './components/SharedComponents';
 
 // Simple placeholder page for About to complete the routing structure
 const About: React.FC = () => (
-  <div className="pt-24 pb-20 bg-brand-charcoal min-h-screen animate-fade-in">
+  <div className="pt-14 pb-20 bg-brand-charcoal min-h-screen animate-fade-in">
     <div className="container mx-auto px-4">
       <SectionHeader 
         title="About Executive Mobile Detailz"
